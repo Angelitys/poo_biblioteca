@@ -16,7 +16,7 @@ public class Principal {
         livro.setId(1);
         livro.setTitulo("POO: Preguiçosos Observando Objetos");
         livro.setAutor("Angelo Polli Bernardi");
-        livro.setEditora(" Unisep");
+        livro.setEditora("Unisep");
         livro.setGenero("Romance");
         livro.setDataPublicacao("14/09/2024");
 
@@ -41,7 +41,7 @@ public class Principal {
         emprestimo.setDataEmprestimo("14/09/2024");
         emprestimo.setHoraEmprestimo("14:33");
         emprestimo.setDiaRetornoEmprestimo("14/10/2024");
-        emprestimo.setDescEmprestimo(" POO| Preguiçosos Observando Objetos");
+        emprestimo.setDescEmprestimo(" POO: Preguiçosos Observando Objetos");
 
         JOptionPane.showMessageDialog(null, emprestimo + livro.toString() + autor.toString() + emprestimo.toString());
 
