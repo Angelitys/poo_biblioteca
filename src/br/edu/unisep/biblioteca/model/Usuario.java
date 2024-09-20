@@ -1,4 +1,4 @@
-package model;
+package br.edu.unisep.biblioteca.model;
 
 public class Usuario {
     private int id;

@@ -1,12 +1,11 @@
-package view;
+package br.edu.unisep.biblioteca.view;
 
-import model.Autor;
-import model.Emprestimo;
-import model.Livro;
-import model.Usuario;
+import br.edu.unisep.biblioteca.model.Autor;
+import br.edu.unisep.biblioteca.model.Emprestimo;
+import br.edu.unisep.biblioteca.model.Livro;
+import br.edu.unisep.biblioteca.model.Usuario;
 
 import javax.swing.*;
-import java.util.jar.JarEntry;
 
 public class Principal {
     public static void main(String[] args) {
